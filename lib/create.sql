@@ -1,9 +1,9 @@
 CREATE TABLE bears (
-name,
-age,
-sex,
-color,
-temperament,
-alive,
-id PRIMARY KEY
+name TEXT,
+age INTEGER,
+sex TEXT,
+color TEXT,
+temperament TEXT,
+alive BOOLEAN,
+id INTEGER PRIMARY KEY
 );
